@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//usando o --
 int main (){
     int fat=1,n;
     printf("Qual fatorial você quer calcular? \n");
