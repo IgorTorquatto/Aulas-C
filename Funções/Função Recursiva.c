@@ -10,7 +10,9 @@ int f(int x){
 }
 
 int main(){
-    int a=f(5);
-    printf("%d \n",a);
+    int  a;
+    printf("Digite um numero para ver seu valor fatorial:");
+    scanf("%d",&a);
+    printf("%d \n",f(a));
     return 0;
 }
